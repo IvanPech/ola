@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang=es>
+<head>
+<meta charset="utf-8">
+<title>Otra página</title>
+</head>
+
+<body background="xde.jpg">
+ <h1>Formulario x</h1>
+  <p>Contesta el siguiente formulario</p>
+   <form id="form order">
+    <p> 
+	<label for="name"Nombre (obligatorio)</label>
+    <input type="text" name="name" id="name"
+	 placeholder="Ivan Alejandro"
+	 autofocus
+	 autocomplete
+	 required>
+	 </p>
+	 
+	
+	 
+	 <p>
+	 <label for="password"> Contraseña (obligatoria) </label>
+	 <input type="password" name="password" id="password"
+	 placeholder="Qwer0123"
+	 pattern="{a-z} {3} {0-9} {4}"
+	 required/> (La contraseña debe contener 5 letras y 1 número en este orden)
+	 </p>
+	 
+	 <p>
+	 <label for="email"> Email </label>
+	 <input type="email" name="email" id="email" 
+	  placeholder="ejemplo@gmail.com">
+	 </p>
+	 
+	 <p>
+	 <label for="phone"> Telefono </label>
+	 <input type="phone" name="phone" id="phone"
+	 placeholder="99841990280">
+	 </p>
+	 
+	 <p>
+	 <label for="website"> Tu página buep </label>
+	 <input type="URL" name="URL" id="URL"
+	 placeholder="https://www.youtube.com/">
+	 </p>
+	 
+	 <p>
+	 <label for="numberexample">Edad</label>
+	 <input type="number" name="number" id="number" min="15" max="30" step="1"> Solo se admiten edades de entre 15 y 30 años
+	 </p>
+	 
+	 <p>
+	 <label for="deliverytime">Fecha de envío</label>
+	 <input type="date" name="deliverydate" id="deliverydate" min="2020-07-10"> La fecha de entrega es apartir de la fecha estimada
+	 </p>
+	 
+	 <p>
+	 <label for="colorexample">Color favorito</label>
+	 <input type="color" name="colorexample" id="colorexample" value="#1A33FF">
+	 </p>
+	 
+	 <p>
+	 <label for="search">Buscar</label>
+	 <input type="search" name="search" id="search">
+	 </p>
+	 
+	 
+	 
+	 <p>
+	 <fieldset>
+	 <legend>Selecciona tu prioridad</legend>
+	 <p><label> <input type="radio" name="priority" value="baja" checked> Baja</label></p>
+	 <p><label> <input type="radio" name="priority" value="media"> Media</label></p>
+	 <p><label> <input type="radio" name="priority" value="alta"> Alta</label></p>
+	 </fieldset>
+	 </p>
+ 	 
+	 <p>
+	 <fieldset>
+	 <legend> Selecciona tu rango de edad </legend>
+	 <p><label> <input type="checkbox" name="deliverytime" value="Adolescente" checked> Adolescente </label></p>
+	 <p><label> <input type="checkbox" name="deliverytime" value="Adulto menor"> Adulto menor </label></p>
+	 <p><label> <input type="checkbox" name="deliverytime" value"="Adulto mayor"> Adulto mayor </label></p>
+	 </fieldset>
+	 </p>
+	 
+	 
+	 <p>
+	 <label for="points">Puntuación del formulario</label>
+	 <input type="range" name="points" id="points" min="1" max="10"> ´Puntuación del 1 al 10
+	 
+	
+ 
+
+<input type="submit" value="Enviar">
+<a href="Etiquetado de páginas WEB/ Página 1.html">Click Aquí</a>
+</body>
+</html>
